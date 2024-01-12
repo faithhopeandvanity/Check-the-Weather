@@ -54,47 +54,50 @@
     </div>
   </div>
 <!--create five cards for five days-->
-<!-- <section class="fiveDayCards">
-  <h3 id="fiveDayForecast" class="lighting">5-Day Forecast:</h3>
-  <section class="BorderCards">
 
-      <p id="Date1"></p>
-      <p id="Temp1"></p>
-      <p id="Wind1"></p>
-      <p id="Humidity1"></p>
-      <img id="Icon1" scr="https://openweathermap.org/img/w/10d.png">
-  </section>
-  <section class="BorderCards">
-      <p id="Date2"></p>
-      <p id="Temp2"></p>
-      <p id="Wind2"></p>
-      <p id="Humidity2"></p>
-      <img id="Icon2" scr="https://openweathermap.org/img/w/10d.png">
-  </section>
-  <section class="BorderCards">
+<!-- 5 day forecast -->
+<div class="row future-forecast-container d-block">
+  <!-- 5 day forecast title-->
+  <h2 class="future-forecast-title" id="future-forecast-title"></h2>
+  <div id="future-forecast-cards-container" class="future-forecast-cards-container d-flex justify-content-between">
+      <!-- future day forecard card -->
+      <div class="future-card bg-primary rounded">
+          <p class="future-date" id="future-date-1"></p>
+          <img id="future-icon-1" src="" alt="">
+          <p class="future-humidity" id="future-humidity-1"></p>
+          <p class="future-temp" id="future-temp-1"></p>
+      </div>
+      <div class="future-card bg-primary rounded">
+          <p class="future-date" id="future-date-2"></p>
+          <img id="future-icon-2" src="" alt="">
+          <p class="future-humidity" id="future-humidity-2"></p>
+          <p class="future-temp" id="future-temp-2"></p>
+      </div>
+      <div class="future-card bg-primary rounded">
+          <p class="future-date" id="future-date-3"></p>
+          <img id="future-icon-3" src="" alt="">
+          <p class="future-humidity" id="future-humidity-3"></p>
+          <p class="future-temp" id="future-temp-3"></p>
+      </div>
+      <div class="future-card bg-primary rounded">
+          <p class="future-date" id="future-date-4"></p>
+          <img id="future-icon-4" src="" alt="">
+          <p class="future-humidity" id="future-humidity-4"></p>
+          <p class="future-temp" id="future-temp-4"></p>
+      </div>
+      <div class="future-card bg-primary rounded">
+          <p class="future-date" id="future-date-5"></p>
+          <img id="future-icon-5" src="" alt="">
+          <p class="future-humidity" id="future-humidity-5"></p>
+          <p class="future-temp" id="future-temp-5"></p>
+      </div>
+  </div>
 
-      <p id="Date3"></p>
-      <p id="Temp3"></p>
-      <p id="Wind3"></p>
-      <p id="Humidity3"></p>
-      <img id="Icon3" scr="https://openweathermap.org/img/w/10d.png">
-  </section>
-  <section class="BorderCards">
+<!-- //additional functionality
+  <section class="clear-history">
+    <button id="clear"> Clear Search History</button>
+</section> -->
 
-      <p id="Date4"></p>
-      <p id="Temp4"></p>
-      <p id="Wind4"></p>
-      <p id="Humidity4"></p>
-      <img id="Icon4" scr="https://openweathermap.org/img/w/10d.png">
-  </section>
-  <section class="BorderCards">
-
-      <p id="Date5"></p>
-      <p id="Temp5"></p>
-      <p id="Wind5"></p>
-      <p id="Humidity5"></p>
-      <img id="Icon5" scr="https://openweathermap.org/img/w/10d.png">
-  </section> -->
   <!-- Day.js -->
   <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
   <!-- jQuery -->
