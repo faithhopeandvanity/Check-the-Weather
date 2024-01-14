@@ -121,6 +121,7 @@ const searchHistoryEl = function (cityName) {
                         currentHumidity.text(
                             "Humidity: " + response.current.humidity + "%"
                         );
+                    
                     });
             })
             //catch
