@@ -11,6 +11,7 @@ function startPage() {
     const currentHumidityEl = document.getElementById("humidity");
     const currentWindEl = document.getElementById("wind-speed");
     const historyEl = document.getElementById("search-history");
+    //converts retrieved data using JSON into string format so it's usable in this doc
     let searchHistoryEl = JSON.parse(localStorage.getItem("search")) || [];
 
     // variable w/ my API key (compatible across all of OpenWeatherMapAPI's APIs)
