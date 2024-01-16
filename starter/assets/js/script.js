@@ -116,15 +116,6 @@ function startPage() {
                         response.data.list[forecastIndex].main.humidity +
                         "%";
                     forecastEls[i].append(forecastHumidityEl);
-                    const forecastWindspeedEl = document.createElement("p");
-                    //note how 'speed' is found under 'wind' in the API doc.;
-                    //I made the mistake of thinking '.wind.speed' fell under 'main';
-                    //so I had to refer to the API doc. to check that my formatting was correct.
-                    forecastWindspeedEl.innerHTML =
-                        "Wind Speed: " +
-                        response.data.list[forecastIndex].wind.speed +
-                        "mph";
-                    forecastEls[i].append(forecastWindspeedEl);
                 }
             });
         });
