@@ -9,7 +9,7 @@ It's powered by OpenWeatherMap's APIs. They provide several, each with their own
 Pictured: my home city and some of my favourites I've been to.
 ![Screenshot of working app](image.png)
 
-I also experimented with using a 'popover' in my html as I think it's a very snazzy new(-ish) feature.
+I also experimented with using a 'popover' modal in my html as I think it's a very snazzy new(-ish) feature - to make it go away, just click the button again.
 
 OpenWeather provide emojis as part of their updates, so you can integrate dynamically-changing icons that match the weather info.
 

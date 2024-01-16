@@ -135,7 +135,7 @@ function startPage() {
         getWeather(searchTerm);
         searchHistoryEl.push(searchTerm);
         localStorage.setItem("search", JSON.stringify(searchHistoryEl));
-        displaysearchHistoryEl();
+        displaySearchHistoryEl();
     });
 
     // Clear History button
@@ -143,14 +143,14 @@ function startPage() {
         //clear local storage (ie. saved valid searches)
         localStorage.clear();
         searchHistoryEl = [];
-        displaysearchHistoryEl();
+        displaySearchHistoryEl();
     });
     //convert Kelvin to celsius; -273.15
     function kelv(K) {
         return Math.floor(K - 273.15);
     }
 
-    function displaysearchHistoryEl() {
+    function displaySearchHistoryEl() {
         historyEl.innerHTML = "";
         //for loop using searchHistoryEl array
         for (let i = 0; i < searchHistoryEl.length; i++) {
@@ -166,7 +166,7 @@ function startPage() {
         }
     }
     //run the function to display searched cities
-    displaysearchHistoryEl();
+    displaySearchHistoryEl();
     if (searchHistoryEl.length > 0) {
         getWeather(searchHistoryEl[searchHistoryEl.length - 1]);
     }
