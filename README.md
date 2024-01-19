@@ -13,6 +13,8 @@ I also experimented with using a 'popover' modal in my html as I think it's a ve
 
 OpenWeather provide emojis as part of their updates, so you can integrate dynamically-changing icons that match the weather info.
 
+https://faithhopeandvanity.github.io/Check-the-Weather/
+
 I used [this video by Bro Code](https://www.youtube.com/watch?v=VaDUGPMjzOM) for additional help in getting to grips with the API.
 [Guide to the APIs with links to respective documentation.](https://openweathermap.org/api)
 [I also cross-examined returned and parsed data with OpenWeather's own forecast app to check that the data and units were correct!](https://openweathermap.org/)
